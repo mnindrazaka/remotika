@@ -1,0 +1,23 @@
+{
+  "name": "remotika",
+  "version": "1.0.0",
+  "description": "Yet another data fetching library",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "yarn build -w",
+    "build": "tsc src/index.ts --outfile dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnindrazaka/remotika.git"
+  },
+  "author": "mnindrazaka@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnindrazaka/remotika/issues"
+  },
+  "homepage": "https://github.com/mnindrazaka/remotika#readme",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
